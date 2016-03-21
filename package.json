@@ -1,0 +1,20 @@
+{
+  "name": "kandinskyesque",
+  "version": "1.0.0",
+  "description": "css art based on an image - first with original aspect ratio, then fully responsive",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fffplok/kand-css/kand-css.git"
+  },
+  "author": "Glen Giefer",
+  "license": "MIT",
+  "homepage": "https://github.com/fffplok/kand-css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

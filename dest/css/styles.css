@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(circle, #ad919b, #ffffff);
+}
+
+#container {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(235, 222, 206, 0.5);
+}
+
+.rect {
+  position: absolute;
+  background-color: rgba(240, 231, 216, 0.25);
+}
+
+.hr {
+  width: 72vw;
+  height: 25vw;
+}
+
+.hr1 {
+  top: 44vw;
+  left: 19vw;
+  z-index: 0;
+}
+
+.hr2 {
+  top: 53vw;
+  left: 6vw;
+  z-index: 5;
+}
+
+.hr3 {
+  top: 97vw;
+  left: 25vw;
+  z-index: 10;
+}
+
+.hr4 {
+  top: 116vw;
+  left: 3vw;
+  z-index: 15;
+}
+
+.vr {
+  width: 25vw;
+  height: 72vw;
+  z-index: 20;
+}
+
+.vr1 {
+  top: 22vw;
+  left: 9vw;
+  z-index: 25;
+}
+
+.vr2 {
+  top: 9vw;
+  left: 38vw;
+  z-index: 30;
+}
+
+.vr3 {
+  top: 38vw;
+  left: 56vw;
+  z-index: 35;
+}
+
+.vr4 {
+  top: 56vw;
+  left: 19vw;
+  z-index: 40;
+}
+
+.vr5 {
+  top: 50vw;
+  left: 66vw;
+  z-index: 45;
+}
+
+.vr6 {
+  top: 103vw;
+  left: 38vw;
+  z-index: 50;
+}
+
+.half-circle {
+  position: absolute;
+}
+
+.hc-vert {
+  height: 21.5vw;
+  width: 43vw;
+}
+
+.hc-horz {
+  height: 43vw;
+  width: 21.5vw;
+}
+
+.hc-down {
+  border-radius: 0 0 21.5vw 21.5vw;
+  background-image: linear-gradient(to top, rgba(255, 195, 184, 0.5), rgba(255, 195, 184, 0.05));
+}
+
+.hc-up {
+  border-radius: 21.5vw 21.5vw 0 0;
+  background-image: linear-gradient(to bottom, rgba(255, 195, 184, 0.5), rgba(255, 195, 184, 0.05));
+}
+
+.hc-left {
+  border-radius: 43vw 0 0 43vw;
+  background-image: linear-gradient(to right, rgba(255, 195, 184, 0.5), rgba(255, 195, 184, 0.05));
+}
+
+.hc-right {
+  border-radius: 0 43vw 43vw 0;
+  background-image: linear-gradient(to left, rgba(255, 195, 184, 0.5), rgba(255, 195, 184, 0.05));
+}
+
+.hc1 {
+  top: 19vw;
+  left: 16vw;
+  z-index: 55;
+}
+
+.hc2 {
+  top: 56vw;
+  left: 44vw;
+  z-index: 60;
+}
+
+.hc3 {
+  top: 91vw;
+  left: 19vw;
+  z-index: 65;
+}
+
+.hc4 {
+  top: 134vw;
+  left: 31vw;
+  z-index: 70;
+}
+
+.hc5 {
+  top: 103vw;
+  left: 72vw;
+  z-index: 2;
+}
